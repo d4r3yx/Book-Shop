@@ -1,0 +1,16 @@
+<div class="container ">
+    <div class="row soc ms-5 " *ngFor="let item of products">
+        
+        <div class="card mt-5 back" style="width: 18rem; height: 22rem;border-radius: 1rem;">
+            <img src="../assets/photo1698920398.jpeg" class="card-img-top " alt="" title="">
+            <div class="card-body ">
+              <p class="card-title" align="center">book</p>
+              <p class="card-text">48 laws of power robert greene</p> 
+            </div>
+
+            <a class="a-link" [routerLink]="['/cardOne']" (click)="onClick(item.id)">مشاهده / خرید</a>
+
+        </div> 
+    </div>
+
+</div>

@@ -1,0 +1,22 @@
+.a-link {
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff; 
+    margin: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+.a-link:hover {
+    background-color: #fff;
+    color: red;
+     
+}
+.soc {
+    display: inline-block;
+}
+.atext {
+    margin-bottom: -30px;
+}
